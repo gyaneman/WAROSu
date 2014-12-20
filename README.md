@@ -1,4 +1,4 @@
 WAROSu
 ======
 
-OSの勉強
+Lerning about Operating System...
