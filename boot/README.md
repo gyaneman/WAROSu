@@ -1,11 +1,11 @@
-this program uses "quem" to run.
+this program uses "qeum" to run.
 
-How to compile and run.
-#assemble
+#How to compile and run.
+assemble
 $nasm "filename.s"
 
-#write flopy disk
+write flopy disk
 $mformat -f 1440 -C -B "filename" -i fd.img ::
 
-#run
+run
 $qemu -fda fd.img -boot a
